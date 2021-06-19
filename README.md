@@ -2,6 +2,7 @@
 A python script that takes a Mangadex manga link and the chapters you want to download, and downloads and saves them as pdf. 
 
 **How to run**
+
 You need to have the following installed on your computer:
 
 1) Python 3
