@@ -43,7 +43,7 @@ def downloader(url,img_list,img_names):
             img_names.append(str(file.replace(":","-").replace(" ","-")))
 
 for num in range(start, end+1):
-    c = 'https://mangadex.tv/chapter/'+manga.split("/")[-1]+'/chapter_'+str(num)
+    c = 'https://mangadex.tv/chapter/'+manga.split("/")[-1]+'/chapter-'+str(num)
     print(c)
     downloader(c,img_list,img_names)
 
